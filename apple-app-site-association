@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        // 전체 앱의 teamID + bundleID
+        "appID": "RYGMZZJ6M5.site.eifer.app.Touchbase",
+        "paths": [ "/touchbase/*" ]
+      },
+      {
+        // 앱 클립의 teamID + bundleID
+        // 예: com.yourcompany.touchbaseFull.Clip 식으로 생성됨
+        "appID": "RYGMZZJ6M5.site.eifer.app.Touchbase.Clip",
+        "paths": [ "/touchbase/*" ]
+      }
+    ]
+  }
+  // 다른 domain 관련 설정이 있으면 추가
+  // "webcredentials": ... 
+  // "appclips": ...
+}
